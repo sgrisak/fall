@@ -1,6 +1,6 @@
 # fall
 
-Animated falling snow
+Using Math.random() to vary the size, opacity, and horizontal starting positions of the falling snowflakes.
 
 ## Technologies
 
