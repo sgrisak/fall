@@ -1,0 +1,29 @@
+body {
+  background: #323975;
+}
+
+.fa-snowflake {
+  position: absolute;
+  top: -20px;
+  animation: fall linear forwards;
+  color: #fff;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(105vh);
+  }
+}
+
+.inspired {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  background-color: #dedede;
+  padding: 0.25em 0.75em;
+  border-radius: 20px;
+}
+
+.inspired a {
+  text-decoration: underline;
+}
